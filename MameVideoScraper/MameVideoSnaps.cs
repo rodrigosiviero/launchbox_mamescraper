@@ -6,6 +6,7 @@ using System.Net;
 using System.IO;
 using System.Reflection;
 using System;
+using MameVideoScraper.Properties;
 
 namespace MameVideoScraper
 {
@@ -26,7 +27,7 @@ namespace MameVideoScraper
 
         public System.Drawing.Image IconImage
         {
-            get { return null; }
+            get { return Resources.mame; }
         }
 
         public bool ShowInLaunchBox
